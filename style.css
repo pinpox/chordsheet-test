@@ -27,22 +27,30 @@
 }
 
 .barline {
+		line-height: 1em;
 
-		font-size: 6vw;
-		padding: 0px;
-		margin: 0px;
+		font-size: 4vw;
+		/* padding: 0px; */
+		/* margin: 0px; */
 		/* line-height: 0.5; */
 		border: 1px solid green;
 }
 
 .barline .bar-content {
+
+		display: inline-block;
+		width: 120px;
+		/* margin: auto; */
 		border: 1px solid red;
 		font-family: 'musejazz';
-		min-width: 400px;
+		/* min-width: 400px; */
+		/* line-height: 1em; */
 }
 
 
 .barline .divider {
+		display: inline-block;
+		width: 20px;
 		border: 1px solid yellow;
 		font-family: 'bravura';
 }
