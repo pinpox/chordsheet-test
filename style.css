@@ -1,0 +1,53 @@
+@font-face {
+		font-family: 'patrick';
+		src: URL('patrick.ttf') format('truetype');
+}
+
+.patrick {
+		font-family: 'patrick';
+}
+
+@font-face {
+		font-family: 'musejazz';
+		src: URL('musejazz.ttf') format('truetype');
+}
+
+.musejazz {
+		font-family: 'musejazz';
+
+}
+
+@font-face {
+		font-family: 'bravura';
+		src: URL('bravura.ttf') format('truetype');
+}
+
+.bravura {
+		font-family: 'bravura';
+}
+
+.barline {
+
+		font-size: 6vw;
+		padding: 0px;
+		margin: 0px;
+		/* line-height: 0.5; */
+		border: 1px solid green;
+}
+
+.barline .bar-content {
+		border: 1px solid red;
+		font-family: 'musejazz';
+		min-width: 400px;
+}
+
+
+.barline .divider {
+		border: 1px solid yellow;
+		font-family: 'bravura';
+}
+
+body {
+		/* display: table; */
+}
+
