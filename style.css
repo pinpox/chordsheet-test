@@ -1,6 +1,8 @@
 @font-face {
 		font-family: 'patrick';
-		src: URL('patrick.ttf') format('truetype');
+		/* src: URL('patrick.ttf') format('truetype'); */
+
+		src: url("https://raw.githubusercontent.com/pinpox/chordsheet-test/main/patrick.ttf") format('truetype');
 }
 
 .patrick {
@@ -9,7 +11,9 @@
 
 @font-face {
 		font-family: 'musejazz';
-		src: URL('musejazz.ttf') format('truetype');
+		/* src: URL('musejazz.ttf') format('truetype'); */
+		src: url("https://raw.githubusercontent.com/pinpox/chordsheet-test/main/musejazz.ttf") format('truetype');
+
 }
 
 .musejazz {
@@ -19,7 +23,9 @@
 
 @font-face {
 		font-family: 'bravura';
-		src: URL('bravura.ttf') format('truetype');
+		/* src: URL('bravura.ttf') format('truetype'); */
+		src: url("https://raw.githubusercontent.com/pinpox/chordsheet-test/main/bravura.ttf") format('truetype');
+
 }
 
 .bravura {
@@ -27,35 +33,53 @@
 }
 
 .barline {
-		line-height: 1em;
 
+		line-height: 1;
+		/* line-height: 1em; */
 		font-size: 4vw;
-		/* padding: 0px; */
-		/* margin: 0px; */
 		/* line-height: 0.5; */
-		border: 1px solid green;
+		/* border: 1px solid green; */
+}
+.repeatbox {
+		font-size: 2vw;
+		border-top: 2px solid black;
+		border-left: 2px solid black;
 }
 
-.barline .bar-content {
+.bar-content {
 
+		/* background: #f00; */
 		display: inline-block;
-		width: 120px;
+		width: 100px;
 		/* margin: auto; */
-		border: 1px solid red;
+		margin: 0px;
+
+		/* border: 1px solid red; */
 		font-family: 'musejazz';
 		/* min-width: 400px; */
 		/* line-height: 1em; */
 }
 
+.sectiontitle {
+		border: 3px solid black;
+		padding-left: 2px;
+		padding-right: 2px;
+		font-family: 'patrick';
+}
 
-.barline .divider {
+
+.divider {
+		/* background: #0f0; */
 		display: inline-block;
-		width: 20px;
-		border: 1px solid yellow;
+		/* width: 20px; */
+		margin: 0px;
+		padding 0px;
+		/* border: 1px solid yellow; */
+		width: 10px;
 		font-family: 'bravura';
 }
 
-body {
-		/* display: table; */
-}
+
+
+
 
